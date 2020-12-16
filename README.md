@@ -44,6 +44,7 @@ choco install -y jdk8
 > 变量名:`JAVA_HOME`
 
 > 变量值:`C:\Program Files\Java\jdk1.8.0_211`
+
 ### 第三步
 重新运行 `npx react-native run-android` 这个问题也解决了, 不过具体原因不是很清楚,推测是因为没有jre目录,因为重新用
 `choco` 安装jdk以后多出一个 **jre1.8.0_271** 文件夹
